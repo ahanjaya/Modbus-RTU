@@ -5,10 +5,10 @@ from pymodbus.pdu import ModbusRequest
 from pymodbus.client.sync import ModbusSerialClient as ModbusClient
 from pymodbus.transaction import ModbusRtuFramer
 
-client = ModbusClient(method='rtu', port="COM10", baudrate=115200, parity='E', timeout=0.1)
+client = ModbusClient(method='rtu', port="COM9", baudrate=115200, parity='E', timeout=0.1)
 connection = client.connect()
 
-read_vals  = client.read_holding_registers(248, 10, unit=1) # start_address, count, slave_id
+read_vals  = client.read_holding_registers(248, 4, unit=1) # start_address, count, slave_id
 print(read_vals.registers)
 
 # write registers
