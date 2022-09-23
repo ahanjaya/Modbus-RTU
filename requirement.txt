@@ -1,4 +1,4 @@
 pyserial
-minimialmobdus
+minimalmodbus
 pymodbus
 numpy
