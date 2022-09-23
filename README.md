@@ -11,7 +11,7 @@ pip install requirement.txt
 ### Packages (requirement.txt)
 ```
 pyserial
-minimialmobdus
+minimalmodbus
 pymodbus
 numpy
 ```
