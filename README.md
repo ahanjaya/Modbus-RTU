@@ -5,7 +5,7 @@ This is example code to run modbus RTU using python with minimalmodbus or pymodb
 ## Installation
 ```
 conda create -n modbus_env python=3.7 pip
-pip install requirement.txt
+pip install -r requirement.txt
 ```
 
 ### Packages (requirement.txt)
